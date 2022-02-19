@@ -13,7 +13,7 @@ import org.springframework.context.annotation.Configuration;
 public class BasicTest {
 
     @Test
-    void baisicConfig() {
+    void basicConfig() {
         ApplicationContext applicationContext = new AnnotationConfigApplicationContext(BasicConfig.class);
 
         //A는 빈으로 등록된다.
